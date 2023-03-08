@@ -1,0 +1,23 @@
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.black {
+    background-color: black;
+}
+.blue {
+    background-color: blue;
+}
+
+.red,
+.green,
+.black,
+.blue {
+  width: 22px !important;
+  height: 22px;
+  display: block;
+  border-radius: 50px;
+  cursor: pointer;
+}

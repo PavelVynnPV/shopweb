@@ -1,0 +1,67 @@
+.smartphone_icon {
+    background-image: url(../icons/iphone_icon.svg);
+}
+.kitchen_icon {
+    background-image: url(../icons/kitchen_icon.svg);
+}
+.home_tex_icon {
+    background-image: url(../icons/home_tex_icon.svg);
+}
+.laptop_icon {
+    background-image: url(../icons/laptop_icon.svg);
+}
+.game_icon {
+    background-image: url(../icons/game_icon.svg);
+}
+.tv_icon {
+    background-image: url(../icons/tv_icon.svg);
+}
+.tools_icon {
+    background-image: url(../icons/tool_icon.svg);
+}
+.building_icon {
+    background-image: url(../icons/building_icon.svg);
+}
+.electro_icon {
+    background-image: url(../icons/electro_icon.svg);
+}
+.garden_icon {
+    background-image: url(../icons/garden_icon.svg);
+}
+.sport_icon {
+    background-image: url(../icons/sport_icon.svg);
+}
+.cloth_icon {
+    background-image: url(../icons/cloth_icon.svg);
+}
+.child_icon {
+    background-image: url(../icons/child_icon.svg);
+}
+.animal_icon {
+    background-image: url(../icons/animal_icon.svg);
+}
+.office_icon {
+    background-image: url(../icons/office_icon.svg);
+}
+.alcohol_icon {
+    background-image: url(../icons/alcohol_icon.svg);
+}
+.category_inner a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+}
+.category_inner a li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.category_inner a li span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-size: contain;
+    margin-right: 5px;
+}

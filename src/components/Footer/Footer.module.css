@@ -1,0 +1,220 @@
+footer {
+  background: linear-gradient(90deg, #6511a7 0%, #4e0587 0.01%, #1f0534 100%);
+  width: 100%;
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  display: flex;
+  flex-direction: column;
+  padding-top: 88px;
+  position: relative;
+}
+.footer__main_box {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+}
+.footer__images {
+  display: flex;
+}
+.footer__links a li {
+  display: flex;
+  align-items: center;
+}
+.footer__links a li span {
+  margin-right: 5px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.footer__icons {
+  display: flex;
+  gap: 11px;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
+}
+.form__title {
+  font-weight: 700;
+  font-size: 24px;
+  width: 500px !important;
+}
+.footer__form {
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #fff;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -100px;
+    left: 7.5%;
+    padding: 30px;
+}
+.footer__form div{
+    display: flex;
+    gap: 28px;
+}
+input {
+    width: 175px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    outline: none;
+    padding-left: 12px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.form__btn {
+    cursor: pointer;
+    color: #6511a7;
+}
+.follow {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.footer__links div li {
+    margin-bottom: 20px;
+}
+
+.instagram_link,
+.telegram_link,
+.facebook_link,
+.linkedin_link,
+.github_link {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-size: contain;
+}
+
+.instagram_link {
+  background-image: url(../icons/instagram.svg);
+}
+.telegram_link {
+  background-image: url(../icons/telegram.svg);
+}
+.facebook_link {
+  background-image: url(../icons/facebook.svg);
+}
+.github_link {
+  background-image: url(../icons/github.svg);
+}
+.linkedin_link {
+  background-image: url(../icons/linkedin.svg);
+}
+
+.footer__blog_icon,
+.footer__marker_icon,
+.footer__pay_icon,
+.footer__stock_icon {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+}
+
+.footer__marker_icon {
+  background-image: url(../icons/map_mark.svg);
+}
+.footer__pay_icon {
+  background-image: url(../icons/box.svg);
+}
+.footer__stock_icon {
+  background-image: url(../icons/birka.svg);
+}
+.footer__blog_icon {
+  background-image: url(../icons/blog.svg);
+}
+
+.logo {
+  background-image: url(../icons/logo.svg);
+  display: block;
+  width: 171px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 28px;
+}
+.google_photo {
+  background-image: url(../icons/google.svg);
+  display: block;
+  width: 143px;
+  height: 109px;
+  background-size: contain;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@media (max-width: 1154px) {
+  .footer__form {
+    display: none;
+  }
+  .footer__main_box {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1000px) {
+  .footer__main_box {
+    justify-content: center;
+  }
+}
+@media (max-width: 370px) {
+  .footer__images {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer__main_box {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    margin-right: 0;
+  }
+  .footer__images {
+    align-items: center;
+  }
+  .footer__links {
+    justify-content: center;
+    padding: 0;
+    gap: 20px;
+  }
+  .footer__icons {
+    padding: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .footer__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .facebook__links div {
+    align-items: center;
+  }
+}

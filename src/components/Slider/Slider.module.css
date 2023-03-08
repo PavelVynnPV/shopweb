@@ -1,0 +1,66 @@
+.mini__slider {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 10px;
+}
+.headpphones_slide {
+  background-image: url(./img/headphones_slide.jpg);
+}
+.iphone_slide {
+  background-image: url(./img/slider_iphone.jpg);
+}
+.laptop_slide {
+  background-image: url(./img/laptop_slide.jpg);
+}
+.headpphones_slide,
+.iphone_slide,
+.laptop_slide {
+  width: 318px;
+  height: 208px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.laptop_slide {
+  background-position: -180px 0px;
+}
+.slide_img {
+  width: 100%;
+  height: 300px;
+}
+.slider__inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1154px) {
+  .slide_img {
+    background-size: contain;
+  }
+  .slider__inner {
+    display: flex;
+    flex-direction: row;
+  }
+  .mini__slider {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .slide_img {
+    background-size: contain;
+    object-fit: contain;
+    width: 800px;
+  }
+  .slider__inner {
+    text-align: center;
+    background-size: contain;
+  }
+}
+@media (max-width: 800px) {
+  .slide_img {
+   display: none;
+  }
+}
