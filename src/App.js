@@ -70,7 +70,7 @@ function App() {
   }
 
   const getData = () => {
-    fetch("http://pavelvynnpv.github.io/myshopapi/catalog.json")
+    fetch("https://pavelvynnpv.github.io/myshopapi/catalog.json")
       .then((response) => response.json())
       .then((cataloginfo) => setData(cataloginfo.shop));
   };
