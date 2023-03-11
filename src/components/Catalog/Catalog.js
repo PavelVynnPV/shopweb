@@ -48,7 +48,7 @@ export default function Catalog({
           }}
         >
           <span className={styles.cart_icon}></span>
-          {!isCartItem ? "B корзину" : "Из корзины"}
+          {!isCartItem ? "B корзину" : "З корзины"}
         </a>
         <div className={styles.icons_box}>
           <div>
